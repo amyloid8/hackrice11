@@ -11,7 +11,8 @@
     "wake": "8:00 AM",
     "sleep": "1:00 AM",
     "bio": "hi",
-    "catchphrase": "hello world"
+    "catchphrase": "hello world",
+    "email": "amy.danjul@rice.edu"
   },
   "User2":
   {
@@ -25,7 +26,23 @@
     "wake": "2:00 AM",
     "sleep": "11:00 AM",
     "bio": "hi",
-    "catchphrase": "hello world"
+    "catchphrase": "hello world",
+    "email": "alex.peng@rice.edu"
+  },
+  "User3":
+  {
+    "firstName": "Vivian",
+    "lastName": "Xiao",
+    "year": "Freshman",
+    "major": "CS",
+    "hobbies": ["hobby1", "hobby2", "hobby3"],
+    "temp": "70",
+    "numPpl": 2,
+    "wake": "1:00 AM",
+    "sleep": "9:00 AM",
+    "bio": "hi",
+    "catchphrase": "hello world",
+    "email": "vivian.xiao@rice.edu"
   }
 
 }
