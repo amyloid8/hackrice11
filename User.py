@@ -26,6 +26,7 @@ class User:
         self.catchphrase = data.get("catchphrase")
 
     def toString(self):
-        str = ""
-        for key, value in self.data:
-            print( key + ": " + value + "\n")
+        string = ""
+        for key, value in self.data.items():
+            string += key + ": " + str(value) + "\n"
+        return string

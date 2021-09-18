@@ -12,6 +12,8 @@ def print_hi(name):
 
 def init(config):
 
+    
+
     with open(config, "r") as file:
         data = json.load(file)
     print(data)
@@ -22,10 +24,14 @@ def init(config):
     for p in people:
         print(p.toString())
 
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     init(r"C:\Users\amyda\Documents\Rice University\hackrice11\config.json")
+    something = input("Hi, say something! >>> ")
+    print(something)
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
