@@ -3,6 +3,7 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import json
+from User import User
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -10,10 +11,16 @@ def print_hi(name):
     print("test")
 
 def init(config):
-    data = {}
-    with open(config) as file:
+
+    with open(config, "r") as file:
         data = json.load(file)
     print(data)
+    people = []
+    for _ in data:
+        person = User(data.get(_))
+        people.append(person)
+    for p in people:
+        print(p.toString())
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
