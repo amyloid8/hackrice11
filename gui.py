@@ -1,5 +1,6 @@
 from tkinter import *
 
+
 def click():
     entered_text=textentry.get()
 
@@ -9,7 +10,7 @@ rmgui.title("Title")
 
 #image
 rmgui.configure(background="#8C7284")
-photo1=PhotoImage(file="IMG_0051.gif")
+photo1=PhotoImage(file=r"C:\Users\amyda\Documents\Rice University\hackrice11\IMG_0051.gif")
 photo1 = photo1.zoom(25) #with 250, I ended up running out of memory
 photo1 = photo1.subsample(32) #mechanically, here it is adjusted to 32 instead of 320
 

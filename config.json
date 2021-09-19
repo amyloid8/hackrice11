@@ -1,48 +1,38 @@
 {
   "User1":
   {
-    "firstName": "Amy",
-    "lastName": "Danjul",
+    "Name": "Amy Danjul",
     "year": "Freshman",
     "major": "CS",
-    "hobbies": ["badminton", "traveling", "piano"],
     "temp": "74",
     "numPpl": 2,
-    "wake": "8:00 AM",
-    "sleep": "1:00 AM",
+    "schedule": "I sleep at 1AM and usually get up at 8AM",
     "bio": "hi",
-    "catchphrase": "hello world",
-    "email": "amy.danjul@rice.edu"
+    "email": "amy.danjul@rice.edu",
+    "yes": []
   },
   "User2":
   {
-    "firstName": "Alex",
-    "lastName": "Peng",
+    "Name": "Alex Peng",
     "year": "Freshman",
     "major": "CS",
-    "hobbies": ["sleeping", "hobby2", "hobby3"],
     "temp": "70",
     "numPpl": 2,
-    "wake": "2:00 AM",
-    "sleep": "11:00 AM",
+    "schedule": "I sleep at 2AM and usually get up at 2PM",
     "bio": "hi",
-    "catchphrase": "hello world",
-    "email": "alex.peng@rice.edu"
+    "email": "alex.peng@rice.edu",
+    "yes": []
   },
   "User3":
   {
-    "firstName": "Vivian",
-    "lastName": "Xiao",
+    "Name": "Vivian Xiao",
     "year": "Freshman",
     "major": "CS",
-    "hobbies": ["hobby1", "hobby2", "hobby3"],
     "temp": "70",
     "numPpl": 2,
-    "wake": "1:00 AM",
-    "sleep": "9:00 AM",
+    "schedule": "I sleep at 1AM and get up at 9AM",
     "bio": "hi",
-    "catchphrase": "hello world",
-    "email": "vivian.xiao@rice.edu"
+    "email": "vivian.xiao@rice.edu",
+    "yes": []
   }
-
 }
