@@ -28,21 +28,36 @@ def init(config):
     return people
 
 def selection(people):
-    yes = []
     for person in people:
+        print(person.toString())
         response = input("Yes or no >>> ")
         if response == "yes":
             yes.append(person)
+    me["yes"] = yes
     return yes
+
+def match(me, people):
+    return
+
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
     people = init(r"C:\Users\amyda\Documents\Rice University\hackrice11\config.json")
+
+    me = r"C:\Users\amyda\Documents\Rice University\hackrice11\config_template.json"
+    with open(me) as file:
+        me = json.load(file)
+    for key in me:
+        me[key] = input(key + "? >>> ")
+    print(me)
+
     yesPeople = selection(people)
     for _ in yesPeople:
         print(_.toString())
+
+
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

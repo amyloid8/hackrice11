@@ -1,13 +1,11 @@
 {
-    "firstName": "",
-    "lastName": "",
+    "Name": "",
     "year": "",
     "major": "",
-    "hobbies": [],
     "temp": "",
     "numPpl": 0,
-    "wake": "",
-    "sleep": "",
+    "schedule": "",
     "bio": "",
-    "catchphrase": ""
+    "email": "",
+    "yes": []
 }
